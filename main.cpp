@@ -22,7 +22,7 @@ int main() {
                 TRV = (TID ^ SID) & 0xF;
 
                 cout << "\nTID: " << TID << endl << "SID: " << SID << endl << "TSV: " << TSV << endl;
-                cout << "TRV: " << TRV << endl << "G7TID: " << G7TID << endl << "G7SID: " << G7SID << "\n\n";
+                cout << "TRV: " << hex << TRV << endl << "G7TID: " << dec << G7TID << endl << "G7SID: " << G7SID << "\n\n";
                 system("pause");
                 runtime = false;
                 break;
@@ -39,7 +39,7 @@ int main() {
                 TRV = (TID ^ SID) & 0xF;
 
                 cout << "\nTID: " << TID << endl << "SID: " << SID << endl << "TSV: " << TSV << endl;
-                cout << "TRV: " << TRV << endl << "G7TID: " << G7TID << endl << "G7SID: " << G7SID << "\n\n";
+                cout << "TRV: " << hex << TRV << endl << "G7TID: " << dec << G7TID << endl << "G7SID: " << G7SID << "\n\n";
                 system("pause");
                 runtime = false;
                 break;

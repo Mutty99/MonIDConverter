@@ -1,8 +1,5 @@
 # MonIDConverter
 
-G++ Compiler for Windows is required to run this program.
-Use MinGw to install it on your computer: https://sourceforge.net/projects/mingw/
-
 This is a calculator and converter created to help people who want to RNG with 3DSRNGTool.
 You can either input TID and SID, or G7TID and G7TID. The program will tell you:
 
